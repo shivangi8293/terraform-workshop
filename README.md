@@ -16,3 +16,4 @@ This demo/workshop will help you understand the basics of infrastructure as code
 10. [Terraform Commands](./10-terraform-commands.md)
 11. [Use Variables in Terraform](./11-variables-in-terraform.md)
 12. [Use Modules in Terraform](./12-modules-in-terraform.md)
+
