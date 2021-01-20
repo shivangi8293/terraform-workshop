@@ -26,5 +26,7 @@ Provider configurations belong in the root module of a Terraform configuration. 
 
 ## Azure Provider
 
-We are going to use azure provider so it will provide us Azure resources.
+The Azure Provider can be used to configure infrastructure in Microsoft Azure using the Azure Resource Manager API's.
+
+We are going to use azure provider, so it will provide us Azure resources.
 
