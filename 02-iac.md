@@ -56,6 +56,7 @@ Some of the IAC tools are Terraform, Chef, Puppet, CloudFormation, Ansible etc.
 1. For IAC to work correctly, your code should be your only point of contact i.e., for any infrastructure concerns you should rely on your code and configuration files.
 2. Version control of configuration files.
 3. Always test your configuration before deploying.
+4. Use minimal or no documentation as code self documents the state.
 
 
 
