@@ -1,1 +1,0 @@
-In this scenario, you will learn how to create your first resource group using terraform scenario. 
