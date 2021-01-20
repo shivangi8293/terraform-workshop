@@ -45,7 +45,7 @@ Shifting from manual process to IAC would have a learning curve for developers a
 If a resource is created using IAC then manual intervention to the resource could lead to configuration drift.
 
 ### Error replication 
-In case we introduced error while creating the first resource and used the same code for creating multiple resources then the same error would be replicated to all the resources.
+Since the initial code is developed by humans only so there is always a chance of minor error that could impact in long run. In this case if we used the same code for creating multiple resources then the same error would be replicated to all the resources.
 
 ## IAC Tools
 
