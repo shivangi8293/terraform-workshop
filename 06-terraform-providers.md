@@ -18,9 +18,9 @@ The Terraform Registry is the main directory of publicly available Terraform pro
 
 Provider configurations belong in the root module of a Terraform configuration. A provider configuration is created using a provider block:
 
-    provider "google" {
-        project = "acme-app"
-        region  = "us-central1"
+    provider "azurerm" {
+        version = "2.32.0"
+        features {}
     }
 
 
