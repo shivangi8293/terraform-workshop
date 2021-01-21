@@ -19,8 +19,7 @@ Now we can create our resources inside this resource group.
 
 Create a file with .tf extension and copy the below code into it.
 
-    resource "azurerm_virtual_network""dummyVNet"
-    {
+    resource "azurerm_virtual_network""dummyVNet"{
         name = "dummyVNet"
         address_space = ["10.0.0.0/16"]
         location="Central India"
