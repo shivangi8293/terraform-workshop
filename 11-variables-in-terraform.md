@@ -6,7 +6,9 @@ In this topic, you will learn how to write the variables in the configuration fi
 
 Terraform provides multiple variable types
 
-- String 
+- String
+- Number
+- Bool
 - Lists
 - Map
 
@@ -14,6 +16,12 @@ Create file variables.tf
 
     variable "name" {
         default = "dummy rg"
+    }
+    variable "space" {
+        default = 20
+    }
+    variable "active" {
+        default = false
     }
     variable "locations"{
         default = ["Central India" , "West India"]
