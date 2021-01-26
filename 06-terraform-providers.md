@@ -6,6 +6,8 @@ Here you will learn about terraform providers and why are these needed and which
 
 Terraform relies on plugins called "providers" to interact with remote systems. In configuration providers must be declared so that Terraform can install and use them.
 
+The Terraform Registry(https://registry.terraform.io/browse/providers) is the main home for provider documentation.
+
 ## What Providers Do
 
 Each provider adds a set of resource types and/or data sources that Terraform can manage.
