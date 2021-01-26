@@ -8,7 +8,7 @@ We will create a free azure account and us the subscription id for further under
 
 Microsoft Azure offers a free 30-day trial period to all new account holders.
 
-Go to https://www.azure.com and click the green “Start free” button.
+Go to https://azure.microsoft.com/en-us/free/ and click the green “Start free” button.
 
 You’ll also need to supply a valid credit card. Prepaid credit cards won’t work — you’ll need a “normal” credit or debit card. There is no charge involved with the setting up of a trial account. Microsoft just wants to see your card to verify your identity. 
 
