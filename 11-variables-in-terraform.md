@@ -27,12 +27,12 @@ Create file variables.tf
         default = ["Central India" , "West India"]
     }
     variable "tags" {
-        type = "map"
-        default =
-        {
-            environment = "test"
+        type = map
+        default = {
+        environment = "test"
         }
     }
+
 
 ### Access variables
 
