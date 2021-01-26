@@ -8,7 +8,7 @@ What comes to mind when we hear "infrastructure"
 
 ![infrastructure](infrastructure.jpg)
 
-But, for us IT people what comes -
+For IT people what comes -
 
 ![infra](infra.png)
 
@@ -34,7 +34,7 @@ There are generally two approaches to IaC:
 
 ### Declarative (What)
 
-The declarative approach focuses on what the eventual target configuration should be.The declarative approach defines the desired state and the system executes what needs to happen to achieve that desired state.
+The declarative approach focuses on what the eventual target configuration should be.The declarative approach defines the desired state, and the system executes what needs to happen to achieve that desired state.
 
 ### Imperative (How)
 
@@ -43,10 +43,10 @@ The imperative focuses on how the infrastructure is to be changed to meet this.I
 ## Pros of Infrastructure as Code
 
 ### Fast
-IAC makes things faster as manual process of cofiguration is eliminated and through IAC developeers can create the infrastructure on their own instead of waiting for the IT Team to manual finish the task.
+IAC makes things faster as manual process of configuration is eliminated and through IAC developers can create the infrastructure on their own instead of waiting for the IT Team to manual finish the task.
 
 ### Consistent
-When we configure one resource using IAC and we have to configure similar resources the same code can be referred which will make consistent resources with no chances of missing out on configuration in case of manual process where chances of human error is higher.
+When we configure one resource using IAC, and we have to configure similar resources the same code can be referred which will make consistent resources with no chances of missing out on configuration in case of manual process where chances of human error is higher.
 
 ### Scalable
 With IAC same code can be used to create n number of resources but with manual process you have to configure those resources. 
@@ -57,17 +57,17 @@ It is reliable as in manual process you need to remember all those steps but her
 ## Cons of Infrastructure as Code
 
 ### Learning Curve
-Shifting from manual process to IAC would have a learning curve for developers as this would need some skills and learning about IAC tools. Some of the languages used for IaC are JSON, HashiCorp Configuration Languages (HCL), YAML, Ruby, etc.
+Shifting from manual process to IAC would have a learning curve for developers as this would need some skills and learning about IAC tools. Some languages used for IaC are JSON, HashiCorp Configuration Languages (HCL), YAML, Ruby, etc.
 
 ### Configuration Drift
 If a resource is created using IAC then manual intervention to the resource could lead to configuration drift.
 
 ### Error replication 
-Since the initial code is developed by humans only so there is always a chance of minor error that could impact in long run. In this case if we used the same code for creating multiple resources then the same error would be replicated to all the resources.
+Since the initial code is developed by humans only, so there is always a chance of minor error that could impact in long run. In this case if we used the same code for creating multiple resources then the same error would be replicated to all the resources.
 
 ## IAC Tools
 
-Some of the IAC tools are Terraform, Chef, Puppet, CloudFormation, Ansible etc.
+Some IAC tools are Terraform, Chef, Puppet, CloudFormation, Ansible etc.
 
 ## Best Practices
 
