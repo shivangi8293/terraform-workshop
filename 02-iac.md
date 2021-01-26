@@ -2,6 +2,22 @@
 
 Here you will learn about IAC and its benefits.
 
+## Infrastructure
+
+What comes to mind when we hear "infrastructure"
+
+![infrastructure](infrastructure.jpg)
+
+But, for us IT people what comes -
+
+![infra](infra.png)
+
+- Storage
+- Networking
+- Security
+- Servers
+- Monitoring etc.
+
 ## Infrastructure as code
 
 IaC is the managing, and provisioning of infrastructure through code instead of manual processes.
@@ -9,6 +25,8 @@ IaC is the managing, and provisioning of infrastructure through code instead of 
 With IaC, configuration files are created that contain your infrastructure specifications, which makes it easier to edit and distribute configurations. It also ensures that you provision the same environment every time.
 
 IaC is frequently referred to as Programmable Infrastructure.
+
+![iac](iac.png)
 
 ## Types of approaches
 
